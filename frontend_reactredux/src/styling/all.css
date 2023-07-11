@@ -1,0 +1,92 @@
+body {
+    margin-top: 10px;
+    background: #eee;
+}
+
+
+#card-body-contact {
+    flex-direction: column;
+    height: calc(100vh - 150px);
+    max-height: 100%;
+}
+
+#card-body-chat {
+    flex: 1;
+    height: calc(108vh - 238px);
+    max-height: 100%;
+    overflow-y: scroll;
+}
+
+#card-begin {
+    display: flex;
+    height: calc(108vh - 185px);
+    max-height: 100%;
+    min-height: fit-content;
+    max-height: fit-content;
+}
+
+#chat-body {
+    box-sizing: border-box;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    margin-left: auto;
+    background: #FFF;
+    border-top-left-radius: 1.125rem;
+    border-top-right-radius: 1.125rem;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 1.125rem;
+    min-height: 2.25rem;
+    width: fit-content;
+    max-width: 100%;
+    background-color: rgb(71, 98, 247);
+    color: white;
+}
+
+
+#chat-bodyreciver {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+    border-radius: 25px;
+    background-color: #82ccdd;
+    padding: 10px;
+    width: fit-content;
+    position: relative;
+}
+
+
+
+/* CSS for Modal */
+
+.modal-overlay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: #ececec;
+    ;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+
+}
+
+.modal-content {
+    width: 90%;
+    max-width: 500px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.msg {
+    margin-bottom: 20px;
+}
+
+.btn-danger {
+    margin-bottom: 7px;
+}
